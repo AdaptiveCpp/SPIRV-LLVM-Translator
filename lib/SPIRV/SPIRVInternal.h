@@ -184,11 +184,11 @@ typedef SPIRVMap<Op, Op, IntBoolOpMapId> IntBoolOpMap;
   "-v512:512:512-v1024:1024:1024"
 
 enum SPIRAddressSpace {
-  SPIRAS_Private,
+  SPIRAS_Generic,
   SPIRAS_Global,
   SPIRAS_Constant,
   SPIRAS_Local,
-  SPIRAS_Generic,
+  SPIRAS_Private,
   SPIRAS_GlobalDevice,
   SPIRAS_GlobalHost,
   SPIRAS_Input,
